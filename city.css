@@ -1,0 +1,61 @@
+*,
+*::before, ::after {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cities
+{
+width: 4rem;
+height: 4rem;
+align-content: space-between;
+margin-bottom: 1rem;
+}
+ul{
+    display: grid;
+    padding: 1rem;
+    background: rgb(43, 160, 160);
+    width: 50%;
+    height: 8vh;
+    list-style-type: none;
+    position: fixed;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 300px;
+    justify-content: center;
+    margin: 10vh;
+}
+img{
+    width: 48vw;
+    height: 40vh;
+    margin: 30px;
+}
+p{
+   font-size: large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: centre;
+   margin: 5px;
+}
+
+footer{
+    justify-content: baseline;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: blueviolet;
+    width: 50vw;
+    height: 10vh;
+}

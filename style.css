@@ -1,0 +1,50 @@
+*,
+*::before, ::after {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    display:grid
+}
+
+h1 {
+     font-size: 3rem;
+     width: 70vw;
+     height: 12vh;
+     background-color: rgb(19, 145, 145);
+     text-align: center;
+     text-decoration: none; 
+     
+}
+
+nav ul{
+    display:flex;
+    font-size: 1.5rem;
+}
+
+nav ul li{
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.city-images{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: 40vh; justify-self: center;
+}
+        
+img{
+    margin: 1.5rem;
+}
+footer{
+    width: 70vw;
+    background: grey;
+    height: 5rem;
+    text-align: center;
+
+}
